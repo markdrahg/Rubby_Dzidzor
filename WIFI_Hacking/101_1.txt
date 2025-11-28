@@ -1,0 +1,28 @@
+
+### Common Methods of Wi-Fi Password Hacking
+
+1.  **Guessing (The Simplest Form):**
+    *   Many people use weak, default, or common passwords (e.g., "password," "12345678," their home address). An attacker might just try a list of these common passwords.
+
+2.  **Social Engineering:**
+    *   Tricking someone into giving you the password. For example, posing as an IT technician from the internet provider and calling the homeowner to "verify" their network details.
+
+3.  **Password Sharing App Exploitation:**
+    *   Many people share their Wi-Fi passwords with friends using features built into smartphones (like Apple's "Share Wi-Fi").
+    *   If an attacker gains temporary physical access to a device already on the network, they can see the saved password.
+
+4.  **Wi-Fi Protected Setup (WPS) Attack:**
+    *   WPS was designed to let users connect devices easily by pressing a button on the router or entering an 8-digit PIN.
+    *   This PIN is vulnerable to a "brute-force" attack, where a tool tries all possible PIN combinations. Once the WPS PIN is cracked, it reveals the main Wi-Fi password. This is a very common and effective attack against older routers.
+
+5.  **Capturing and Cracking the Handshake (The "Classic" Hack):**
+    *   This is the technical process often depicted in movies.
+    *   **Step 1: Monitor Mode.** The attacker puts their wireless adapter into a special "monitor mode" to listen to all wireless traffic in the area.
+    *   **Step 2: Capture the Handshake.** When a new device (like a phone or laptop) connects to the network, it performs a "handshake" with the router to prove it knows the password. The attacker captures this encrypted handshake.
+    *   **Step 3: Brute-Force Offline.** The attacker takes the captured handshake file to their own powerful computer. They then use software to try millions of different passwords against this file until they find one that matches. The success of this method depends entirely on the strength of the password. A weak password will be cracked quickly; a strong, long password could take centuries.
+
+6.  **Evil Twin Attack:**
+    *   The attacker sets up a fake Wi-Fi network with a name that looks identical to a legitimate one (e.g., "CoffeeShop_WiFi" vs. "CoffeeShop_Wi-Fi").
+    *   When users connect to the fake network, the attacker can capture their data, including passwords they type, or even prompt them to "re-enter" the Wi-Fi password.
+
+In short, "Wi-Fi password hacking" is a real threat, but it primarily exploits weak security practices. By using a strong, unique password and modern security settings, you can make your network virtually impossible to crack for a casual attacker.
